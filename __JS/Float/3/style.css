@@ -1,0 +1,20 @@
+#zdg{
+    float: left;
+    background-color: black;
+    height: 860px;
+    width: 50%;
+}
+#zdd{
+    float: right;
+    background-color: darkgreen;
+    height: 860px;
+    width: 50%;
+}
+#bas{
+    background-color: #00C010;
+    width: 100%;
+    height: 100px;
+}
+.clear{
+    clear: both;
+}

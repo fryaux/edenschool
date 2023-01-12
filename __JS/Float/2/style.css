@@ -1,0 +1,23 @@
+#zdh{
+    background-color: wheat;
+    width: 100%;
+    height: 150px;
+}
+#zdg{
+    float: left;
+    background-color: grey;
+    width: 400px;
+    height: 810px;
+}
+#zdm{
+    float: left;
+    background-color: maroon;
+    width: 1087px;
+    height: 810px;
+}
+#zdd{
+    float: right;
+    background-color: grey;
+    width: 400px;
+    height: 810px;
+}

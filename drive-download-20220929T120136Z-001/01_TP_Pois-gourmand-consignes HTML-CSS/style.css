@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Srisakdi&display=swap');
+header{
+    font-family: 'Srisakdi', cursive;
+    margin-left: 60px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.homepage{
+    background-image: url(bg.jpg);
+    width: 55%;
+    margin: 60px auto;
+}
+.menu{
+    background-image: url(bg.jpg);
+    width: 70%;
+    margin: 60px auto;
+}
+.wrap{
+    width: 100%;
+    height: 50%;
+}
+h2:not(#cmd){
+    font-family: 'Srisakdi', cursive;
+    text-align: center;
+}
+#menu #commande{
+    font-family: 'Srisakdi', cursive;
+    height: 50%;
+    width: 100%;
+    background-color: #D3EDD9;
+    color: #548E6B;
+}
+#une{
+    font-family: 'Srisakdi', cursive;
+}
+#cmd{
+    padding-left: 15px;
+}
+main:not(#menu) article{
+    margin: 10px 90px;
+    width: 30%;
+    background-color: white;
+    padding-bottom: 20px;
+}
+article div:not(#text, .flex, #foot){
+    height: 170px;
+    overflow: hidden;
+}
+article #bg{
+    overflow: hidden;
+    margin-right: 3%;
+}
+#likeimg img {
+    margin: 0px 15px 50px 15px;
+    height: 250px;
+    width: 200px;
+}
+#like{
+    color: gray;
+    text-align: right;
+    margin: 120px 0 0px 0;
+}
+#likeimg i{
+    color: gray;
+}
+#une{
+    margin-block-start: 0;
+    font-size: 1.2em;
+}
+#text{
+    margin-left: 50px;
+}
+#btnmenu{
+    color: white;
+    border: #1DA83F;
+    background-color: #1DA83F;
+    text-align: center;
+    display: block;
+    margin: -1% 28%;
+    width: 50%;
+    border-radius: 5px;
+    height: 35px;
+}
+#facture{
+    color: gray;
+    padding: 0 300px 0 0;
+    text-align: right;
+}
+#btnmenu:hover{
+    cursor: pointer;
+    background-color: #32D45B;
+}
+#formule{
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+}
+.flex{
+    display: flex;
+}
+main article:not(#formule) img{
+    width: 100%;
+}
+#descriptionrome{
+    font-family: Helvetica, sans-serif;
+    margin-left: 15px;
+}
+.btn{
+    width: 90%;
+    height: 35px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border: #01A6DA;
+    border-radius: 5px;
+}
+.lightblue{
+    background-color: #00A2BA;
+}
+.lightblue:hover{
+    cursor: pointer;
+    background-color: #81EEFF;
+}
+.red{
+    background-color: #DE3241;
+}
+.red:hover{
+    cursor: pointer;
+    background-color: #FFA8AF;
+}
+.yellow{
+    background-color: #FFC200;
+}
+.yellow:hover{
+    cursor: pointer;
+    background-color: #FFE9A0;
+}
+.blue{
+    background-color: #0077FF;
+}
+.blue:hover{
+    cursor: pointer;
+    background-color: #94C6FF;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 2.5%;
+}
+h3{
+    font-family: 'Srisakdi', cursive;
+    text-align: end;
+    margin-right: 15px;
+}
+footer{
+    padding-top: 40px;
+    padding-bottom: 2px;
+}
+i{
+    color: #6B9986;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* by gugu */

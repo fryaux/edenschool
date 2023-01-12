@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#burgermenu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    background-color: #b92223;
+    padding-left: 20px;
+    padding-top: 14px;
+    padding-bottom: 23px;
+    transition: 0.5s;
+}
+
+#burgermenu.open{
+    left: 11.8%;
+}
+
+span{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 8px;
+    width: 70px;
+    background-color: #f6fed4;
+}
+
+#menu{
+    background-color: #f27562;
+    height: 1080px;
+    width: 400px;
+    margin: 0 -20%;
+    transition: 0.5s;
+}
+#menu.open {
+    margin-left: -3%;
+}

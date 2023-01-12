@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+}
+
+li i {
+    font-size: 300%;
+}
+
+.img {
+    margin-top: 1.5%;
+    background-image: url(img/maurice.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 95.5%;
+    background-position: 0 50%;
+    margin-bottom: 80px;
+    background-size: cover;
+}
+
+article{
+    width: 30%;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 2%;
+    font-family: "helvetica";
+    border-radius: 6px;
+    border: 1px solid #4cb6b4;
+    height: 350px;
+}
+
+article h2{
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+article p{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: #0C5460;
+    background-color: #d1ecf1;
+}
+
+article img {
+    width: 480.05px;
+    height: 204.033px;
+}
+
+main{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 15% 0 15%;
+    background-color: #75c9c8;
+    color: rgb(87, 87, 87);
+    margin: 0;
+}
+
+ul i {
+    color: black;
+}
+
+ul li {
+    line-height: 110px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+}
+
+.reservation{
+    border-radius: 6px;
+    margin-left: 5%;
+    height: 350px;
+    width: 60%;
+    border: solid 2px #4cb6b4;
+}
+
+.reservation h2{
+    background-color: #d1ecf1;
+    font-family: arial, Helvetica;
+    font-weight: 300;
+    padding-left: 20px;
+    color: #0C5460;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    border-radius: 6px;
+}
+
+#boucaniersbox{
+    margin: 0%;
+}
+
+.bouc {
+    display: flex;
+    width: 100%;
+    height: 350px;
+}
+
+.email {
+    font-family: arial, Helvetica;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 42.8%;
+    font-size: 15px;
+}
+
+label {
+    display: none;
+}
+
+input{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.email {
+    font-size: 16px;
+}
+
+input:not(.email){
+    width: 90%;
+    height: 35px;
+}
+
+#boutton {
+    font-size: 17px;
+    padding-top: 12px;
+    padding-bottom: 33px;
+    background-color: #17a2b8;
+    width: 91%;
+    color: white;
+}
+
+#complete i {
+    margin-left: 20px;
+}
+
+#boutton:hover{
+    background-color: #9ce2f1;
+    cursor : pointer;
+    transition: background-color 0.5s;
+}
+
+section img {
+    border: 3px solid lightgray;
+    height: 94px;
+    width: 184px;
+}
+
+section a:hover{
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+
+section {
+    margin-bottom: 100px;
+    word-spacing: 6.8px;
+    margin-left: 10.8%;
+}
+
+#vacances {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline;
+}
+
+footer {
+    background-color: #4cb6b4;
+    color: rgb(87, 87, 87);
+    padding: 1% 1% 1% 1%;
+}

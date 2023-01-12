@@ -1,0 +1,17 @@
+#zdh{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+}
+#zdg{
+    float: left;
+    background-color: greenyellow;
+    height: 859px;
+    width: 200px;
+}
+#zdd{
+    float: right;
+    background-color: dimgrey;
+    height: 859px;
+    width: 89.4%;
+}
