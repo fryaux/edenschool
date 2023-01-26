@@ -3,7 +3,8 @@ for(let i = 1; i <= 10; i++){
     document.write(i + "<br>")
 }
 
-// -- 2 -- afficher une suite de nombres de 10 à 1
+// -- 2 -- afficher une suite de nombres de 10 à 1.
+
 // -- 3 -- afficher les nombres pairs inférieurs à 100
 
 
@@ -14,9 +15,17 @@ for(let i = 1; i <= 10; i++){
 }
 
 // -- 5 -- afficher toutes les tables de multiplication de 1 à 10
+for(let i = 1; i <= 10; i++){
+    for(let a = 1; a <= 10; a++){
+        document.write(i * a + "<br>");
+    }
+}
 
 
 // -- 6 -- calculer la somme des nombres de 13 à 33
+for(let i = 13; i <= 33; i++){
+    document.write(i + 1);
+}
 
 
 // -- 7 -- calculer le factoriel de 10 (10! = 10 x 9 x 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1 = 3628800)

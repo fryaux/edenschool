@@ -1,119 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-header{
-    text-align: center;
+h1, h2{
+    font-family: serif;
 }
 
-.barre{
-    width: 30vw;
-    height: 0.1vh;
-    background-color: black;
-    margin-left: 34.5vw;
-
-}
-#city {
-    margin-top: 100px;
-    font-size: 14px;
-    font-family: 'Cormorant Garamond', serif;
-    color: #9f7676;
-}
-#bilan {
-    letter-spacing: 5px;
-    font-family: 'Cormorant Garamond', serif;
-}
-#dressage {
-    font-style: italic;
-    font-family: "Cormorant Garamond", serif;
-}
-#plate {
-    margin-top: 50px;
-    margin-right: 400px;
-}
-.barre2 {
-    position: absolute;
-    width: 30vw;
-    height: 0.1vh;
-    background-color: black;
-    top: 556px;
-    right: 468px;
-}
-#txt {
-    font-style: italic;
-    font-family: "Cormorant Garamond", serif;
-    position: absolute;
-    top: 516px;
-    right: 480px;
-}
-#txt2{
-    font-family: "Cormorant Garamond", serif;
-    position: absolute;
-    top: 551px;
-    right: 443px;
+main{
+    width: 60%;
+    margin: 2% auto;
 }
 
-#barre {
-    width: 20vw;
-    height: 0.1vh;
-    background-color: black;
-    margin-left: 26.5vw;
-}
-.lasalle {
-    margin-top: 150px;
+a{
+    text-decoration: none;
+    color: black;
 }
 
-#pp {
+li{
     display: inline-block;
-    margin-top: 200px;
-    margin-left: 26.5vw;
-    line-height: 2px;
-    font-family: "Cormorant Garamond", serif;
-    font-size: 30px;
 }
-#ppp {
-    width: 400px;
-    margin-left: 26.5vw;
-    font-family: "Cormorant Garamond", sans-serif;
-    font-style: italic;
-}
-.lasalleimg {
-    float: right;
-    margin-right: 400px;
-    margin-bottom: 0px;
-}
-#lanote {
-    padding-left: 10px;
-    padding-bottom: 0.1px;
-    padding-top: 0.1px;
-    font-size: 13px;
-    font-family: "Cormorant Garamond", Serif;
-    margin-top: 50px;
-    margin-left: 510px;
-    color: white;
-    margin-right: 1170px;
-    background-color: #313131;
-}
-#lanote i {
 
-    letter-spacing: 1.5px;
-    font-size: 9px;
+article div{
+    width: 50%;
 }
-#serviceimg {
+
+.fl-left{
     float: left;
-    margin-left: 455px;
 }
 
-
-#servicetxt {
-    margin-top: 100px;
-    margin-left: 20px;
-    display: inline-block;
-    line-height: 2px;
-    font-family: "Cormorant Garamond", serif;
-    font-size: 30px;
+.fl-right{
+    float: right;
 }
 
-#servicetxtt {
-    width: 2px;
-    margin-left: 26.5vw;
-    font-family: "Cormorant Garamond", sans-serif;
-    font-style: italic;
+.article-txt p{
+    font-family: serif;
+}
+
+.clear {
+    clear: both;
+}
+.fl-left{
+    float: left;
+}
+.fl-right{
+    float: right;
 }
