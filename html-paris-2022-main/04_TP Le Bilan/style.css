@@ -1,37 +1,23 @@
 h1, h2{
-    font-family: serif;
+    font-family: 'Cormorant Garamond', serif;
 }
-
 main{
-    width: 60%;
+    width: 50%;
     margin: 2% auto;
 }
-
 a{
     text-decoration: none;
     color: black;
 }
-
 li{
     display: inline-block;
 }
-
 article div{
     width: 50%;
 }
-
-.fl-left{
-    float: left;
-}
-
-.fl-right{
-    float: right;
-}
-
 .article-txt p{
     font-family: serif;
 }
-
 .clear {
     clear: both;
 }
